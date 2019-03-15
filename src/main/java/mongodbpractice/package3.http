@@ -1,0 +1,230 @@
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Arpit",
+  "age": 21,
+  "salary": 70000,
+  "phoneNumber": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "address": {
+    "city": "Lucknow",
+    "country": "India"
+  }
+}
+
+###
+
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Prabal",
+  "age": 23,
+  "salary": 110000,
+  "phoneNumber": [
+    1,
+    2
+  ],
+  "address": {
+    "city": "Mumbai",
+    "country": "India"
+  }
+}
+
+###
+
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Himanshu",
+  "age": 22,
+  "salary": 60000,
+  "phoneNumber": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "address": {
+    "city": "Lucknow",
+    "country": "India"
+  }
+}
+
+###
+
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Shivansh",
+  "age": 22,
+  "salary": 70000,
+  "phoneNumber": [
+    3,
+    4,
+    8,
+    9
+  ],
+  "address": {
+    "city": "Udaipur",
+    "country": "India"
+  }
+}
+
+###
+
+
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Kansal",
+  "age": 23,
+  "salary": 28000,
+  "phoneNumber": [
+    8
+  ],
+  "address": {
+    "city": "Delhi",
+    "country": "India"
+  }
+}
+
+###
+
+
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Ritesh",
+  "age": 22,
+  "salary": 18000,
+  "phoneNumber": [
+    31,
+    92
+  ],
+  "address": {
+    "city": "Delhi",
+    "country": "India"
+  }
+}
+
+###
+
+
+POST http://localhost:8901/person
+Content-Type: application/json
+
+{
+  "name": "Gopal",
+  "age": 22,
+  "salary": 28000,
+  "phoneNumber": [
+    9
+  ],
+  "address": {
+    "city": "Shahdra",
+    "country": "India"
+  }
+}
+
+###
+
+GET http://localhost:8901/person
+Content-Type: application/json
+
+###
+
+GET http://localhost:8901/person/associate
+Content-Type: application/json
+
+###
+
+GET http://localhost:8901/person/senior
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/addmobile/Gopal/553
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/updatefirst
+Content-Type: application/json
+
+###
+
+GET http://localhost:8901/person/complexquery/60000/21
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/increaseage/Gopal/1
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/decreaseage/Gopal/1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8901/person/complexquery2/55000/23
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/updateperson/Prabal
+Content-Type: application/json
+
+{
+
+  "salary" : 112000
+  }
+
+###
+
+PUT http://localhost:8901/person/updateaddress/Himanshu
+Content-Type: application/json
+
+{
+  "city": "Chandigarh"
+  }
+
+###
+
+PUT http://localhost:8901/person/addtoset/Gopal/54
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/removefirst/Gopal
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/removelast/Gopal
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/removeall/Gopal/554
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/person/updatefirst
+Content-Type: application/json
+
+###

@@ -1,0 +1,38 @@
+POST http://localhost:8901/user
+Content-Type: application/json
+
+{
+  "name": "Arpit",
+  "age": 22,
+  "email": "arpit@gmail.com",
+  "salary": 2000,
+  "number": 5473723
+}
+
+###
+
+GET http://localhost:8901/user
+Content-Type: application/json
+
+###
+
+GET http://localhost:8901/user/associate
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/user/increment/Arpit
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8901/user/update/Arpit
+Content-Type: application/json
+
+{
+  "name": "Arpit",
+  "age": 23,
+  "email": "arpit@gmail.com"
+  }
+
+###

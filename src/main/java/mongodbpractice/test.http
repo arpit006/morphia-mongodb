@@ -1,0 +1,95 @@
+POST http://localhost:8901/hotel
+Content-Type: application/json
+
+{
+  "hotelName": "Renissance",
+  "pricePerNight": 130,
+  "address": {
+    "city": "San Francisco",
+    "country": "USA"
+  },
+  "reviewers": [
+    {
+      "name": "Arpit",
+      "rating": 8,
+      "approved": true
+    },
+    {
+      "name": "Himanshu",
+      "rating": 9,
+      "approved": true
+    },
+    {
+      "name": "Shivansh",
+      "rating": 6,
+      "approved": false
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8901/hotel
+Content-Type: application/json
+
+{
+  "hotelName": "Taj Vivanta",
+  "pricePerNight": 130,
+  "address": {
+    "city": "Mumbai",
+    "country": "India"
+  },
+  "reviewers": [
+    {
+      "name": "Arpit",
+      "rating": 9,
+      "approved": true
+    },
+    {
+      "name": "Himanshu",
+      "rating": 8,
+      "approved": false
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8901/hotel
+Content-Type: application/json
+
+{
+  "hotelName": "Clarks",
+  "pricePerNight": 130,
+  "address": {
+    "city": "Lucknow",
+    "country": "India"
+  },
+  "reviewers": [
+    {
+      "name": "Arpit",
+      "rating": 8,
+      "approved": true
+    },
+    {
+      "name": "Himanshu",
+      "rating": 9,
+      "approved": true
+    },
+    {
+      "name": "Shivansh",
+      "rating": 6,
+      "approved": false
+    }
+  ]
+}
+
+###
+
+GET http://localhost:8901/hotel
+Content-Type: application/json
+
+###
+
+
+
